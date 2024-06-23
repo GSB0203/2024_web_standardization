@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILPACON</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="left-content">
+                <a href="index.html">
+                    <img src="./images/title-Photoroom.png" alt="Photoroom Logo" class="logo">
+                </a>
+            </div>
+            <div class="center-content">
+                <a href="information.html">정보</a>
+            </div>
+        </div>
+    </nav>
+    <div class="image-container">
+        <div id="background-video-container">
+            <video src="./images/teaser.mp4" muted autoplay loop id="background-video"></video>
+        </div>
+        <div class="overlay">
+            <img src="./images/title-Photoroom.png" alt="Photoroom Logo" class="main-logo">
+            <p class="main-p">2024. 7. 12 공개</p>
+        </div>
+    </div>
+    <div class="countdown-container">
+        <div class="countdown-message">공연시작까지</div>
+        <div id="countdown">00:00:00:00</div>
+    </div>
+    <div class="image-slider">
+        <div class="slide-container">
+            <div class="slide-track">
+                <div class="image-slide"><img src="./images/image1.png" alt="Image 1"></div>
+                <div class="image-slide"><img src="./images/image2.png" alt="Image 2"></div>
+                <div class="image-slide"><img src="./images/image3.png" alt="Image 3"></div>
+                <div class="image-slide"><img src="./images/image4.png" alt="Image 4"></div>
+                <div class="image-slide"><img src="./images/image5.png" alt="Image 5"></div>
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+        <div class="slider-nav">
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <!-- Add more dots as needed -->
+        </div>
+        <button class="prev-button">&#10094;</button>
+        <button class="next-button">&#10095;</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
