@@ -55,16 +55,18 @@ nav {
 
 .logo {
   width: 100px;
-  height: auto;
+  height: 0%;
   padding-top: 10px;
+  padding-left: 80%;
 }
 
 .center-content {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   gap: 20px;
-  flex: 1;
+  flex: 2;
+  padding-right: 10%;
 }
 
 .center-content a {
