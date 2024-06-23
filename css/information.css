@@ -10,6 +10,10 @@ html, body {
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   background-color: rgb(255, 255, 255);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 ::-webkit-scrollbar {
